@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:padding="13dp"
+    android:background="@drawable/btn"
+    android:backgroundTint="#D0DFE1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập thông tin Xe"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtTenXe"
+        android:hint="Tên xe"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginVertical="12dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtMauSac"
+        android:hint="Màu sắc"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginVertical="12dp"
+        android:textColor="@color/black"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtGiaBan"
+        android:hint="Giá Bán"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginVertical="12dp"
+        android:textColor="@color/black"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtMoTa"
+        android:hint="MoTa"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imgHinhAnh"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_launcher_background"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/btn"
+            android:backgroundTint="#2196F3"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white"
+            android:text="Save"/>
+    </LinearLayout>
+
+</LinearLayout>
